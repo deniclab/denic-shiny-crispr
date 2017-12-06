@@ -1,7 +1,9 @@
 # denic-shiny-crispr
 R/Shiny visualization of CRISPR screening data from Shoemaker et al. 2017
-_Manuscript authors_: Christopher J. Shoemaker, Tina Q. Huang, Nicholas R. Weir, Nicole Polyakov, Vladimir Denic
-_Shiny app authors_: Nicholas R. Weir and Christopher J. Shoemaker
+
+__Manuscript authors__: Christopher J. Shoemaker, Tina Q. Huang, Nicholas R. Weir, Nicole Polyakov, Vladimir Denic  
+
+__Shiny app authors__: Nicholas R. Weir and Christopher J. Shoemaker
 
 ## To access web-hosted version of this app:
 Navigate to [PATH].
