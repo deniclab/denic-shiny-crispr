@@ -106,11 +106,11 @@ ui <- fluidPage(
                                             'Rank within experiment' = 2,
                                             'Both' = 3
                                           ),
-                                          selected=1)
+                                          selected=3)
                       ), # end 1st column
                       column(9,
                              p(em("Table column names are formatted "),
-                               strong("reporter _ replicate# or mean _ data value") 
+                               strong("reporter _ (replicate # or mean) _ (beta score or rank)") 
                              ),
                              tableOutput('plot_table')
                       ) # end column 2
@@ -124,7 +124,7 @@ ui <- fluidPage(
                              p(paste0("Using the checkboxes on the left, select experiments to include in the table. ",
                                       "Use the radio buttons to indicate whether experiment means or replicates should ",
                                       "be shown, as well as the score format. Column names are formatted"),
-                               strong("reporter _ replicate# or mean _ data value."),
+                               strong("reporter _ (replicate # or mean) _ (beta score or rank)."),
                                paste0("Search for individual genes using the search box at the top. Sort by a column by ",
                                       "clicking on the column name. Filter rows based on a column by clicking on the box ",
                                       "below the column name, then use the slider to control the filter. "))
