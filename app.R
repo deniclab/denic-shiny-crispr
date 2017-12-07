@@ -1,5 +1,4 @@
-# IMPORTANT: YOU MAY NEED TO CHANGE THIS PATH TO MAKE THE APP WORK ON YOUR COMPUTER.
-# setwd("~/Dropbox/code/cs_crispr") # only for running locally
+# load dataset, libraries, and helper scripts
 crispr_df <- readRDS('combined_spread.rds')
 require(shiny)
 require(ggplot2)
@@ -178,17 +177,19 @@ ui <- fluidPage(
   #-----------------------------------------------------------------------------#
   fixedPanel(id = 'attr_footer', bottom=0, left=0, height=50, width='100%',
              hr(style='color: 222222'),
-             column(width=4,
+             column(width=3,
                     a(img(src='deniclab-with-crest.png', height='40px'), href='http://www.deniclab.com'),
                     align='center'),
-             column(width=4,
+             column(width=3,
+                    a(img(src='bioRxiv_MS_logo.png', height='40px'), href='https://www.biorxiv.org/content/early/2017/12/06/229732'), align='center', style='margin-top: 5px'),
+             column(width=3,
                     br(),
                     downloadButton('downloadData', "Download source data",
                                    style='color: #ce0000; margin-top: -15px'),
                     align='center'),
-             column(width=4,
+             column(width=3,
                     HTML(
-                      '<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>'), align='center', style='margin-top: 5px')
+                      '<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>'), align='center', style='margin-top: 7px')
   )
 ) # end fluidPage
 
