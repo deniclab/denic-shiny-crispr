@@ -20,6 +20,7 @@ Navigate to [PATH].
 - For Debian and RHEL based Linux systems, you can install Docker by following these steps:
 
 `$ curl -fsSL https://get.docker.com/ | sh`
+
 `$ sudo systemctl start docker`
 
 Verify that it's running:
