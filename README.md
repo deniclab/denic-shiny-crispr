@@ -6,7 +6,7 @@ __Manuscript authors__: Christopher J. Shoemaker, Tina Q. Huang, Nicholas R. Wei
 __Shiny app authors__: Nicholas R. Weir and Christopher J. Shoemaker
 
 ## To access web-hosted version of this app:
-Navigate to [PATH].
+Navigate to [crispr.deniclab.com](crispr.deniclab.com).
 
 ## To run the app locally on your computer:
 - Install [RStudio](www.rstudio.com)
