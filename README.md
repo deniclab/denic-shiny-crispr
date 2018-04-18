@@ -11,7 +11,7 @@ Navigate to [PATH].
 ## To run the app locally on your computer:
 - Install [RStudio](www.rstudio.com)
 - Ensure you have all necessary R libraries installed (see requirements.txt)
-- Clone the repository
+- Clone the repository: `git clone https://github.com/deniclab/denic-shiny-crispr.git`
 - Open app.R in RStudio and click "Run App" at the top
 
 _Questions or problems?_ nweir [at] fas d ot harvard dot edu, or submit an issue.
