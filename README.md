@@ -29,11 +29,11 @@ Verify that it's running:
 
 Make sure that docker will start on boot:
 
-`$ sudo systemctl enable docker'
+`$ sudo systemctl enable docker`
 
 Add your username to the docker group to avoid typing "sudo" before docker commands:
 
-`$ sudo usermod -aG docker $(whoami)
+`$ sudo usermod -aG docker $(whoami)`
 
 - To build and run the container on most any system, follow the steps below. You will need to have Docker and git installed.
 
