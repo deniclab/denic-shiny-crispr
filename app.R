@@ -138,10 +138,8 @@ ui <- fluidPage(
                                    'main_table_cols', label=h4('Experiments to show'),
                                    choices=list(
                                      "LC3" = "LC3", "SQSTM1" = 'SQSTM1', "NBR1" = "NBR1",
-                                     "TAX1BP1" = "TAX1BP1", "NDP52" = "NDP52",
-                                     "NBR1.w.ATG7.KO" = "NBR1.with.ATG7.KO"),
-                                   selected= c('LC3','SQSTM1','NBR1','TAX1BP1','NDP52',
-                                               'NBR1.with.ATG7.KO')),
+                                     "TAX1BP1" = "TAX1BP1", "NDP52" = "NDP52"),
+                                   selected= c('LC3','SQSTM1','NBR1','TAX1BP1','NDP52')),
                                  radioButtons(
                                    "table_samples", h4('Samples:'), # show means, replicates, both?
                                    choices=list(
