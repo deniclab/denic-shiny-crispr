@@ -92,8 +92,7 @@ plot_ax_select <- function(var_name, selector_label, initial='LC3'){
                               "SQSTM1",
                               "NBR1",
                               "TAX1BP1",
-                              "NDP52",
-                              "NBR1.with.ATG7.KO"),
+                              "NDP52"),
               selected = initial)
 }
 
